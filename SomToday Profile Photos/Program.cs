@@ -12,18 +12,13 @@ namespace SomToday_Profile_Photos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your cookie");
-            string cookie = Console.ReadLine();
-            cookie = "enteryourcookiehere";
+            string cookie = "enteryourcookiehere"; //cookie from somtoday site
+            string afkorting = "enterafkortinghere"; //afkorting from servers.somtoday.nl
 
-            Console.WriteLine("Enter your school 'afkorting' [servers.somtoday.nl]");
-            string afkorting = Console.ReadLine();
             string url = "https://" + afkorting + "-elo.somtoday.nl/pasfoto/pasfoto_leerling.jpg?id=";
-            Console.WriteLine("Enter start id");
-            string startid = Console.ReadLine();
+            string startid = ""; //?id=x x=starting id
             int startint = int.Parse(startid);
-            Console.WriteLine("Enter end id");
-            string endid = Console.ReadLine();
+            string endid = ""; //?id=x x=ending id
             int endint = int.Parse(endid);
 
             WebClient wc = new WebClient();
