@@ -14,7 +14,7 @@ namespace SomToday_Profile_Photos
         {
             Console.WriteLine("Enter your cookie");
             string cookie = Console.ReadLine();
-            cookie = "JSESSIONID=zspdivMAq_wPqBtr3vqr2ndbooK9jRUAv8xGUFH-.som-jas-carmel:sis-elo-1";
+            cookie = "enteryourcookiehere";
 
             Console.WriteLine("Enter your school 'afkorting' [servers.somtoday.nl]");
             string afkorting = Console.ReadLine();
